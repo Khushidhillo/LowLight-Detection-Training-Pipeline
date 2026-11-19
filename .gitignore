@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Pytest / cache
+.pytest_cache/
+.cache/
+.coverage
+htmlcov/
+
+# Heavy model checkpoints & weights (>50MB or generated)
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ZIP archives
+*.zip
+*.tar.gz
+*.rar
+
+# Training artifacts & experiment runs
+runs/
+runs_live/
+smoke_artifacts/
+smoke_artifacts_new/
+results/
+demo_results/
+demo_test/
+demo_v1/
+live_status.json
+demo_sample_b64.json
+
+# Raw/extracted dataset folders (keep sample_data or instructions, ignore heavy data)
+data/exdark/images/
+data/exdark/labels/
+raw/
+
+# IDE / OS metadata
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

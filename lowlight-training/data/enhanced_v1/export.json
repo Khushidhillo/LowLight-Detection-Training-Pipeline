@@ -1,0 +1,9 @@
+{
+  "mode": "learned",
+  "checkpoint": "runs/joint_v1/best.pt",
+  "splits": [
+    "train",
+    "val",
+    "test"
+  ]
+}

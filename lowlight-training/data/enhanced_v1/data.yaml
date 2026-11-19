@@ -1,0 +1,17 @@
+names:
+- Bicycle
+- Boat
+- Bottle
+- Bus
+- Car
+- Cat
+- Chair
+- Cup
+- Dog
+- Motorbike
+- People
+- Table
+path: D:\LowLight-Detection-Training-Pipeline\lowlight-training\data\enhanced_v1
+test: images/test
+train: images/train
+val: images/val
